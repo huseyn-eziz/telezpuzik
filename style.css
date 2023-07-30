@@ -1,0 +1,131 @@
+.container{
+    display: flex;
+    position: relative;   
+    top: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle1 {
+  border: 1px black;
+  background-color: #512220;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 360px;
+  z-index: -1;
+  top: -65px;
+}
+
+.circle3 {
+  border: 1px black;
+  background-color: #512220;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  right: 360px;
+  position: absolute;
+  z-index: -1;
+  top: -65px;
+}
+
+.circle2{
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #B3765A;
+    position: relative;
+    top: -100px;
+}
+
+.goz1{
+    display: flex;
+    position: absolute;
+    left: 48px;
+    top: 70px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #D4D1CC   ;
+
+}
+.goz2{
+    display: flex;
+    position: absolute;
+    right: 45px;
+    top: 70px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #D4D1CC;
+
+}
+.qarahisse{
+    
+    border: 1px solid #B3765A;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #07080A;
+
+}
+
+.burun{
+    background-color: #512220;
+    height: 40px;
+    width: 40px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: absolute;
+    top: 125px;
+    left: 105px;
+}
+
+.qas1{
+    border: 10px solid #512220;
+    width: 45px;
+    height: 30px;
+    background-color: #B3765A;
+    border-radius: 50%;
+    position: absolute; 
+    left: 51px;
+    top: 45px;
+    border-bottom-style: none;
+    border-right-style: none;
+    border-left-style: none;
+}
+
+.qas2{
+    border: 10px solid #512220;
+    width: 45px;
+    height: 30px;
+    background-color: #B3765A;
+    border-radius: 50%;
+    position: absolute; 
+    right: 47px;
+    top: 45px;
+    border-bottom-style: none;
+    border-right-style: none;
+    border-left-style: none;
+}
+
+
+.agiz{
+    border: 10px solid #512220;
+    width: 55px;
+    height: 30px;
+    background-color: #B3765A;
+    border-radius: 50%;
+    position: absolute; 
+    right: 98px;
+    bottom: 30px;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+}
+  
